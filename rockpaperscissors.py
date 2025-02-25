@@ -40,6 +40,7 @@ def main():
             
             if player not in options:
                 print("Make sure it is one of those options")
+                break
 
             op = random.randint(1, 3)
             newvar:str
